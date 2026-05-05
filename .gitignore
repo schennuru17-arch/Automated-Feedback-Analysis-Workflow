@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets — never commit raw, unsanitized blueprints or API keys
+*.local.json
+*-private.json
+.env
+.env.*
+secrets/
+
+# Python (if you add any helper scripts later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (if you add any helper scripts later)
+node_modules/
